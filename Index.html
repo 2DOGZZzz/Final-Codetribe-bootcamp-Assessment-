@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Results Summary Component</title>
+</head>
+
+<body>
+
+  <section id="main-container">
+    <div class="result-container">
+      <h2 class="Title">Your Result</h2>
+      <div class="number-circle">
+        <p class="Mark">76</p>
+        <p class="Totmark">of 100</p>
+      </div>
+      <div class="Response">
+        <h3>Great</h3>
+        <p class = "comment">Your performance exceed 65% of the people conducting the test here!</p>
+      </div>
+    </div>
+    <div class="Summary-container">
+      <h2>Summary</h2>
+      <div class="Marks-container">
+        <div id="reaction" class="mark">
+          <div class="img-container">
+            <img src="./images/icon-reaction.svg" alt="lightning bolt icon">
+            <span class="reaction-text p-left">Reaction</span>
+          </div>
+          <div class="stat-score-container">
+            <p>80 <span class="light">/ 100</span></p>
+          </div>
+        </div>
+        <div id="memory" class="mark">
+          <div class="img-container">
+            <img src="./images/icon-memory.svg" alt="Brain icon">
+            <span class="memory-text p-left">Memory</span>
+          </div>
+          <div class="stat-score-container">
+            <p>92 <span class="light">/ 100</span></p>
+          </div>
+        </div>
+        <div id="verbal" class="mark">
+          <div class="img-container">
+            <img src="./images/icon-verbal.svg" alt="Speech icon">
+            <span class="verbal-text p-left">Verbal</span>
+          </div>
+          <div class="stat-score-container">
+            <p>61 <span class="light">/ 100</span></p>
+          </div>
+        </div>
+        <div id="visual" class="mark">
+          <div class="img-container">
+            <img src="./images/icon-visual.svg" alt="Eye icon">
+            <span class="visual-text p-left">Visual</span>
+          </div>
+          <div class="stat-score-container">
+            <p>73 <span class="light">/ 100</span></p>
+          </div>
+        </div>
+        <button id="ContBtn">Continue</button>
+      </div>
+    </div>
+
+  </section>
+
+</body>
+
+</html>
