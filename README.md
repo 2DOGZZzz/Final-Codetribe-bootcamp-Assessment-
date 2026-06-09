@@ -1,1 +1,1 @@
-this is a web application that displays a results summary components where in which there is no interaction, just a web application demostrating my skills learne throughout a bootcamp programme with the application
+this is a web application that displays a results summary components where in which there is no interaction, just a web application demostrating my skills learned throughout a bootcamp programme with the application
