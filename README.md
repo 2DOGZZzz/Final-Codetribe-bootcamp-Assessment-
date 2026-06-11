@@ -1,1 +1,1 @@
-this is a web application that displays a results summary components where in which there is no interaction, just a web application demostrating my skills learned throughout a bootcamp programme with the application
+This is a web application that displays a results summary components where in which there is no musch interaction with the user.The application allows the user to view the website layout depending on the user's device screen, see hover and focus states for all interactive elements on the web page.
